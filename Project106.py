@@ -25,7 +25,7 @@ def find_correlation(data_source):
     print(correlation[0,1])
 
 def setup():
-    data_path = "Student.csv"
+    data_path = "Project106.csv"
     plot_figure(data_path)
     data_source = get_data_source(data_path)
     find_correlation(data_source)
